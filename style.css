@@ -54,8 +54,9 @@ p {
    
 }
 
-section {
-    margin-top: 8.5em;
+
+section{
+    margin-top: 6em;
 }
 
 
@@ -121,6 +122,34 @@ main img {
     align-items: center;
     gap:4em;}
 
+    .section3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap:2em;
+        
+        }
+
+        .section3 img {
+            width: 30%;
+            height:40px
+            ;
+        }
+
+        .textlogo {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+            
+        }
+
+        .logosection{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
 /*********FOOTER********/
 /*********RESPONSIVE****/
 
@@ -155,6 +184,19 @@ header {
 
 .margin{
    width: 60%;
+}
+
+.logosection {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 3em;
+    margin-right: 3em;
+    
+}
+
+.textlogo {
+    width:33%;
 }
 
 
