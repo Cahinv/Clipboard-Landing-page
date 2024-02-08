@@ -1,8 +1,15 @@
 
 /*********GENERAL*********/
 
-h1, h2, p {
+body {
+    margin: 0;
+}
+
+h1, h2, p, button {
     font-family: 'Bai Jamjuree', sans-serif;
+    padding-left: 0.8em ;
+    padding-right: 0.8em ;
+    
 }
 h1,h2 {
     color: #4B545C;
@@ -13,10 +20,60 @@ p {
     font-size:18px;
     color: #9EABB1;
 }
+
+.button {
+    color: white;
+    justify-content: center;
+    width: 16em;
+    height:3.7em;
+    font-size:18px;
+    border-radius: 40px 40px 40px 40px;
+    border: none;
+    
+}
+ 
+.button:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.iosbutton{
+    background-color: #26BAA4;
+    box-shadow: 9px 8px 15px -2px rgba(38,186,164,0.65);
+    
+
+}
+
+.macbutton{
+    background-color: #6073FF;
+    box-shadow: 9px 8px 15px -2px rgba(96,115,255,0.65);
+   
+}
+
+
 /*********HEADER*********/
 header {
     background-image: url("./images/bg-header-mobile.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 
+}
+
+.downloadbutton {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    margin-top:2em;
+    
+}
+
+header img {
+    margin-top: 1.5em;
+    margin-bottom: 2.5em;
 }
 /*********MAIN**********/
 /*********FOOTER********/
