@@ -150,6 +150,20 @@ main img {
             align-items: center;
         }
 
+        .logocompany {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 6em;
+            
+        }
+
+        .section5 {
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
 /*********FOOTER********/
 /*********RESPONSIVE****/
 
@@ -197,6 +211,21 @@ header {
 
 .textlogo {
     width:33%;
+}
+
+.logocompany {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-right:2em ;
+    margin-left:2em;
+    gap:5%;
+    
+}
+
+.logocompany img {
+    width:90%;
+    height:auto;
 }
 
 
