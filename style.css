@@ -3,6 +3,7 @@
 
 body {
     margin: 0;
+    
    
 }
 
@@ -83,6 +84,12 @@ header img {
 }
 /*********MAIN**********/
 
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 main img {
     width: 90%;
     height:auto;
@@ -95,6 +102,9 @@ main img {
     display: flex;
     align-items: center;
     flex-direction: column;
+    gap: 1.5em;
+    
+    margin-top:5em;
 }
 /*********FOOTER********/
 /*********RESPONSIVE****/
@@ -115,4 +125,22 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+.storingfunction {
+    display: flex;
+    flex-direction: row;
+}
+
+.textfunctions p , .textfunctions h3 {
+    display: flex;
+    flex-direction: column;
+    text-align: left; 
+    
+}
+
+.margin{
+   width: 60%;
+}
+
+
 }
