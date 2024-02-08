@@ -3,6 +3,7 @@
 
 body {
     margin: 0;
+   
 }
 
 h1, h2, p, button {
@@ -54,7 +55,7 @@ p {
 /*********HEADER*********/
 header {
     background-image: url("./images/bg-header-mobile.png");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
@@ -78,3 +79,16 @@ header img {
 /*********MAIN**********/
 /*********FOOTER********/
 /*********RESPONSIVE****/
+
+@media  (min-width: 768px) {
+
+    
+
+.downloadbutton {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5em;
+    margin-top:2em;
+    
+}
+}
