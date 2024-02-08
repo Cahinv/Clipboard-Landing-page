@@ -1,6 +1,23 @@
 
 /*********GENERAL*********/
+
+h1, h2, p {
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+h1,h2 {
+    color: #4B545C;
+    font-weight: bold;
+}
+
+p {
+    font-size:18px;
+    color: #9EABB1;
+}
 /*********HEADER*********/
+header {
+    background-image: url("./images/bg-header-mobile.png");
+
+}
 /*********MAIN**********/
 /*********FOOTER********/
 /*********RESPONSIVE****/
