@@ -82,6 +82,20 @@ header img {
     margin-bottom: 2.5em;
 }
 /*********MAIN**********/
+
+main img {
+    width: 90%;
+    height:auto;
+    object-fit: contain;
+    margin-left:0.8em;
+    margin-right:0.8em;
+}
+
+.storingfunction {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 /*********FOOTER********/
 /*********RESPONSIVE****/
 
